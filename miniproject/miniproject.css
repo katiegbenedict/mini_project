@@ -1,0 +1,304 @@
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 30px;
+    width: 406px;
+    height: 600px;
+    background-color: rgb(255 209 0);
+}
+
+.fox {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    font-family: "Arvo", serif;
+    position: absolute;
+    left: 106px;
+    top: 480px;
+    /*transform: translate(-50%, -10%);*/
+    color: orangered;
+    font-size: 23px;
+    animation: title 2s;
+    animation-delay: .5s;
+}
+
+@keyframes title {
+    0%,100% {transform: scale(1,1)}
+    50% {transform: scale(2,2)}
+}
+
+.illustrated_by {
+    font-family: "Arvo", serif;
+    position: absolute;
+    left: 36.5%;
+    top: 88.6%;
+    transform: translate(-50%, -10%);
+    color: white;
+    font-size: 10px;
+}
+
+.quentin_blake {
+    font-family: "Arvo", serif;
+    position: absolute;
+    left: 57.5%;
+    top: 87.9%;
+    transform: translate(-50%, -10%);
+    color: white;
+    font-size: 13px;
+    backface-visibility: hidden;
+    transition: transform .5s;
+}
+
+.quentin_blake:hover {
+    transform: scale(2,2) rotate(180deg);
+}
+
+.feather_1 {
+    position: absolute;
+    left: 38%;
+    top: 23%;
+    transform: translate(-50%, -50%);
+    max-width: 5%;
+    height: auto;
+    animation: feather_1 3s;
+}
+
+@keyframes feather_1 {
+    0% {top:90px; left:165px;}
+    17% {top:96px; left:160px; transform: rotate(5deg)}
+    34% {top:102px; left:155px; transform: rotate(-5deg)}
+    51% {top:114px; left:160px;}
+    68% {top:125px; left:165px; transform: rotate(5deg)}
+    85% {top:130px; left:160px;}
+    100% {top:138px; left:154px;}
+}
+
+.feather_2 {
+    position: absolute;
+    left: 45%;
+    top: 27%;
+    transform: translate(-50%, -50%);
+    max-width: 5%;
+    height: auto;
+    animation: feather_2 3s;
+}
+
+@keyframes feather_2 {
+    0% {top:126px; left:183px;}
+    17% {top:132px; left:176px;}
+    34% {top:138px; left:183px; transform: rotate(-7deg)}
+    51% {top:144px; left:189px; transform: rotate(7deg)}
+    68% {top:150px; left:183px;}
+    85% {top:156px; left:176px; transform: rotate(-5deg)}
+    100% {top:162px; left:183px;}
+}
+
+.feather_3 {
+    position: absolute;
+    left: 45%;
+    top: 32%;
+    transform: translate(-50%, -50%);
+    max-width: 5%;
+    height: auto;
+    animation: feather_3 3s;
+}
+
+@keyframes feather_3 {
+    0% {top:156px; left:187px;}
+    17% {top:162px; left:183px; transform: rotate(5deg)}
+    34% {top:168px; left:178px;}
+    51% {top:174px; left:173px;}
+    68% {top:180px; left:178px;}
+    85% {top:186px; left:185px;}
+    100% {top:192px; left:183px;}
+}
+
+.feather_4 {
+    position: absolute;
+    left: 33%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    max-width: 5%;
+    height: auto;
+    animation: feather_4 3s;
+}
+
+@keyframes feather_4 {
+    0% {top:178px; left:134px;}
+    17% {top:184px; left:130px; transform: rotate(-7deg)}
+    34% {top:190px; left:134px; transform: rotate(5deg)}
+    51% {top:196px; left:140px;}
+    68% {top:198px; left:145px;}
+    85% {top:204px; left:140px;}
+    100% {top:210px; left:134px;}
+}
+
+.feather_5 {
+    position: absolute;
+    left: 26%;
+    top: 43%;
+    transform: translate(-50%, -50%);
+    max-width: 5%;
+    height: auto;
+    animation: feather_5 3s;
+}
+
+@keyframes feather_5 {
+    0% {top:222px; left:106px;}
+    17% {top:228px; left:100px; transform: rotate(-5deg)}
+    34% {top:234px; left:96px;}
+    51% {top:240px; left:100px; transform: rotate(5deg)}
+    68% {top:246px; left:106px;}
+    85% {top:252px; left:112px;}
+    100% {top:258px; left:106px;}
+}
+
+.R {
+    font-family: "Arvo", serif;
+    font-weight: bold;
+    position: absolute;
+    left: 28.5%;
+    top: 72.3%;
+    transform: translate(-50%, -10%);
+    color: white;
+    font-size: 32px;
+    transition: transform .5s;
+}
+
+.R:hover {
+    transform: scale(2,2);
+}
+
+.O {
+    font-family: "Arvo", serif;
+    font-weight: 900;
+    position: absolute;
+    left: 32.6%;
+    top: 74.5%;
+    transform: translate(-50%, -10%) rotate(10deg);
+    color: white;
+    font-size: 20px;
+    transition: transform .5s;
+}
+
+.O:hover {
+    transform: scale(3,3);
+}
+
+.A {
+    font-family: "Arvo", serif;
+    font-weight: bold;
+    position: absolute;
+    left: 36.3%;
+    top: 72.5%;
+    transform: translate(-50%, -10%) rotate(-15deg);
+    color: white;
+    font-size: 30px;
+    transition: transform .5s;
+}
+
+.A:hover {
+    transform: scale(2,2);
+}
+
+.L {
+    font-family: "Arvo", serif;
+    font-weight: bold;
+    position: absolute;
+    left: 41.7%;
+    top: 71.5%;
+    transform: translate(-50%, -10%);
+    color: white;
+    font-size: 35px;
+    transition: transform .5s;
+}
+
+.L:hover {
+    transform: scale(2,2);
+}
+
+.D {
+    font-family: "Arvo", serif;
+    font-weight: bold;
+    position: absolute;
+    left: 47.2%;
+    top: 72.4%;
+    transform: translate(-50%, -10%) rotate(-4deg);
+    color: white;
+    font-size: 32px;
+    transition: transform .5s;
+}
+
+.D:hover {
+    transform: scale(2,2);
+}
+
+.D_2 {
+    font-family: "Arvo", serif;
+    font-weight: bold;
+    position: absolute;
+    left: 54.5%;
+    top: 71.5%;
+    transform: translate(-50%, -10%);
+    color: white;
+    font-size: 35px;
+    transition: transform .5s;
+}
+
+.D_2:hover {
+    transform: scale(2,2);
+}
+
+.A_2 {
+    font-family: "Arvo", serif;
+    font-weight: bold;
+    position: absolute;
+    left: 60.5%;
+    top: 72%;
+    transform: translate(-50%, -10%) rotate(9deg);
+    color: white;
+    font-size: 33px;
+    transition: transform .5s;
+}
+
+.A_2:hover {
+    transform: scale(2,2);
+}
+
+.H {
+    font-family: "Arvo", serif;
+    font-weight: bold;
+    position: absolute;
+    left: 65%;
+    top: 73.3%;
+    transform: translate(-50%, -10%) rotate(-4deg);
+    color: white;
+    font-size: 25px;
+    transition: transform .5s;
+}
+
+.H:hover {
+    transform: scale(2,2);
+}
+
+.L_2 {
+    font-family: "Arvo", serif;
+    font-weight: bold;
+    position: absolute;
+    left: 69.8%;
+    top: 72.5%;
+    transform: translate(-50%, -10%);
+    color: white;
+    font-size: 32px;
+    transition: transform .5s;
+}
+
+.L_2:hover {
+    transform: scale(2,2);
+}
